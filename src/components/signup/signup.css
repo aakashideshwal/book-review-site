@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&display=swap");
+
+.login-container {
+  background-image: url("https://images.pexels.com/photos/8957075/pexels-photo-8957075.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-box {
+  background-color: #f8f5de;
+    padding: 10px 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+
+.loginlogo {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 0px;
+  padding: 0%;
+  border-radius: 5px; /* Optional to make the logo look softer */
+}
+
+.login-box h2 {
+  margin-top: 0%;
+  margin-bottom: 20px;
+  font-family: "Cantata One", serif;
+  font-size: xx-large;
+  color: #333;
+}
+
+.login-box p {
+  font-size: medium;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #bbbda4;
+  background-color: #bbbda4;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-box input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+  outline: none;
+}
+
+.login-box button {
+  width: 90%;
+  padding: 12px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #bbbda4;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.login-box button:active {
+  transform: translateY(0);
+}
+
+.login-box a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&display=swap");
+/* Overall Page */
+.book-review-page {
+    padding: 20px;
+    font-family: "Cantana one", serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading */
+  .page-heading {
+    text-align: center;
+    font-size: 2.5rem; 
+    color: #333;  /* colour */
+    margin-bottom: 30px;
+  }
+  
+  /* Main Book Details Section */
+  .book-details-box {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .book-image img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .book-details {
+    flex: 1;
+  }
+  
+  .book-details h2,
+  .book-details p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #444;
+  }
+  
+  .book-description {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  /* Post Review Button */
+  .post-review-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #7F866B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .post-review-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Reviews Section */
+  .reviews-section {
+    margin-top: 40px;
+  }
+  
+  .reviews-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Review Carousel */
+  .review-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  
+  .review-box {
+    flex: 0 0 auto;
+    min-width: 200px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  /* Review Carousel - Horizontal Scroll */
+.review-carousel {
+  display: flex; /* Align items in a horizontal row */
+  gap: 20px; /* Spacing between review boxes */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 10px 0;
+  scrollbar-width: thin; /* Thin scrollbar for modern browsers */
+}
+
+/* Scrollbar Styling */
+.review-carousel::-webkit-scrollbar {
+  height: 8px; /* Adjust scrollbar height for horizontal scrolling */
+}
+
+.review-carousel::-webkit-scrollbar-thumb {
+  background-color: #bbbda4; /* Thumb color matching the theme */
+  border-radius: 4px;
+}
+
+.review-carousel::-webkit-scrollbar-thumb:hover {
+  background-color: #7f866b; /* Darker color on hover */
+}
+
+.review-carousel::-webkit-scrollbar-track {
+  background: #f9f9f9; /* Track matches page background */
+}
+
+/* Review Box Styling */
+.review-box {
+  flex: 0 0 auto; /* Prevent shrinking or stretching */
+  min-width: 200px; /* Fixed width for consistent sizing */
+  padding: 15px;
+  background: #f8f5de; /* Matches the theme */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #555;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-box:hover {
+  transform: scale(1.02); /* Slight scale on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow */
+}

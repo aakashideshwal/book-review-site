@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&display=swap");
+.about-us {
+    background-color: white; 
+    padding: 40px 20px; 
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-us h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 30px; 
+    color: #333;
+    font-weight: 700;
+  }
+
+  .about-us {
+    padding-top: 100px; /* Adjust based on navbar height */
+}
+
+  
+  .about-us .content-box {
+    width: 80%; 
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #F8F5DE; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .about-us .content-box p {
+    font-size: 1.2rem; 
+    line-height: 1.8; 
+    color: #555; 
+    margin: 0 0 20px;
+  }
+
+  .about-us h3 {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: #444;
+  font-style: italic;
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about-us h2 {
+        font-size: 2rem;
+    }
+  
+    .about-us .content-box {
+        padding: 15px;
+    }
+  
+    .about-us .content-box p {
+        font-size: 1rem;
+    }
+  
+    .about-us h3 {
+        font-size: 1.1rem;
+    }
+  }
+  
